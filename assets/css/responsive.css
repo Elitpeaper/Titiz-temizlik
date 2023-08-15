@@ -1,0 +1,309 @@
+@media screen and (min-width:992px) and (max-width:1200px) {
+    #Homepage-about .field-2 .text-field{
+        transform: translate(90px,200px);
+    }
+    #Homepage-about .field-2 .arrow-img{
+        transform: translate(300%,100%);
+    }
+    #Homepage-about .field-2 .catalog{  
+          transform: translate(400%,50%);
+    }
+    #Homepage-brands .video-content .video-content-inner a .play-button{
+        transform: translate(-700%, 300%);
+    }
+    #Homepage-brands{
+        padding-top: 200px;
+    }
+    .Products-main{
+        padding: 0px;
+        margin-top: 100px;
+    }
+    .Products-main .field-1{
+        margin: auto;
+    }
+    .Products-group .menu-groups{
+        padding: 10px;
+    }
+
+    .map-content .field-2{
+        padding-left: 50px;
+    }
+    .breadcrumb-inner{
+        width: 500px;
+        transform: translate(10%,125%);
+    }
+}
+@media screen and (min-width:768px) and (max-width:992px) {
+    #Homepage-about .field-2 .text-field{
+        transform: translate(0px,200px);
+    }
+    #Homepage-about .field-2 .arrow-img{
+        transform: translate(250%,100%);
+    }
+    #Homepage-about .field-2 .catalog{  
+          transform: translate(350%,50%);
+    }
+    #Homepage-brands .video-content .video-content-inner a .play-button{
+        transform: translate(-650%, 300%);
+    }
+    #Homepage-brands{
+        padding-top: 200px;
+    }
+    .Products-main{
+        padding: 100px;
+    }
+    .Products-main .field-1{
+        margin: auto;
+    }
+
+    .fleld_productions .card .content .text-field{
+        opacity: 1;
+    }
+    .map-content .field-1{
+        margin-bottom: 50px;
+    }
+    .breadcrumb-inner{
+        width: 500px;
+        transform: translate(10%,125%);
+    }
+}
+@media screen and (min-width:576px) and (max-width:768px) {
+    #Homepage-about .field-1 .text-field .title{
+        font-size: 50px;
+    }
+    #Homepage-about .field-1 .text-field .text{
+        font-size: 17px;
+    }
+    #Homepage-about .field-2 .text-field{
+        transform: translate(0px,200px);
+        font-size: 30px;
+    }
+    #Homepage-about .field-2 .arrow-img{
+        width: 100px;
+        height: 100px;
+        transform: translate(270%,150%);
+    }
+    #Homepage-about .field-2 .catalog{  
+        width: 100px;
+        height: 100px;
+        transform: translate(400%,100%);
+    }
+    #Homepage-brands .video-content .video-content-inner a .play-button{
+        transform: translate(-480%, 200%);
+    }
+    #Homepage-brands{
+        padding-top: 200px;
+    }
+    .Products-main{
+        padding: 50px;
+    }
+    .Products-main .field-1{
+        margin: auto;
+    }
+
+
+
+
+
+    .Products-group .field-2{
+        padding-left: 20px;
+    }
+    .Products-group .field-2 .title_group h1{
+        font-size: 30px;
+    }
+    .fleld_productions{
+        margin-top: 50px;
+    }
+    .Products-group .field-1{
+        margin-bottom: 50px;
+    }
+    .Products-group .menu-groups{
+        padding: 40px;
+    }
+    .fleld_productions .card .content .text-field{
+        opacity: 1;
+    }
+
+
+    .breadcrumb-inner{
+        width: 400px;
+        transform: translate(10%,125%);
+    }
+    .breadcrumb-title h1{
+        font-size: 40px;
+    }
+}
+@media screen and (min-width:260px) and (max-width:576px) {
+    .section{
+        margin-bottom: 100px;
+    }
+    #Homepage-about .field-1 .text-field .title{
+        font-size: 40px;
+    }
+    #Homepage-about .field-1 .text-field .text{
+        font-size: 15px;
+    }
+    #Homepage-about .field-2 .text-field{
+        transform: translate(0px,200px);
+        font-size: 30px;
+    }
+    
+    #Homepage-about .field-2 .arrow-img{
+        display: none;
+    }
+    #Homepage-about .field-2 .catalog{  
+        width: 100px;
+        height: 100px;
+        transform: translate(200%,50%);
+    }
+    #Homepage-brands .title{
+        border-bottom: 1px solid gray;
+        font-size: 30px;
+    }
+    #Homepage-brands{
+        padding-top: 300px;
+    }
+    #Homepage-brands .brands .BrandSwiper{
+        height: 35vh;
+    }
+    #Homepage-brands .video-content .video-content-inner a .play-button{
+        
+        display: none;
+    }
+    #Homepage-brands{
+        padding-top: 200px;
+    }
+    .Products-main{
+        padding: 0px;
+    }
+    .Products-main .field-1{
+        margin: auto;
+    }
+
+    .Products-group .field-2{
+        padding-left: 0px;
+    }
+    .Products-group .field-2 .title_group h1{
+        font-size: 30px;
+    }
+    .fleld_productions{
+        margin-top: 50px;
+    }
+    .Products-group .field-1{
+        margin-bottom: 50px;
+    }
+    .Products-group .menu-groups{
+        padding: 30px;
+    }
+    .fleld_productions .card .content .text-field{
+        opacity: 1;
+    }
+    .map-content .field-1 iframe{
+        height: 300px !important;
+        width: 100% !important;
+    }
+    .map-content .field-1{
+        margin-bottom: 50px;
+    }
+    .form-field input{
+        margin:20px 0px !important;
+    }
+    .form-field textarea{
+        margin:20px 0px !important;
+    }
+
+    
+    .breadcrumb-inner{
+        width: 240px;
+        transform: translate(10%,175%);
+    }
+    .breadcrumb-title h1{
+        font-size: 30px;
+    }
+    .breadcrumb-text{
+        display: none;
+    }
+}
+
+@media screen and (min-width:0px) and (max-width:260px) {
+    .section{
+        margin-bottom: 100px;
+    }
+    #Homepage-about .field-1 .text-field .title{
+        font-size: 40px;
+    }
+    #Homepage-about .field-1 .text-field .text{
+        font-size: 15px;
+    }
+    #Homepage-about .field-2 .text-field{
+        transform: translate(0px,200px);
+        font-size: 20px;
+    }
+    
+    #Homepage-about .field-2 .arrow-img{
+        display: none;
+    }
+    #Homepage-about .field-2 .catalog{  
+        width: 100px;
+        height: 100px;
+        transform: translate(100%,50%);
+    }
+    #Homepage-brands .title{
+        border-bottom: 1px solid gray;
+        font-size: 30px;
+    }
+    #Homepage-brands{
+        padding-top: 300px;
+    }
+    #Homepage-brands .brands .BrandSwiper{
+        height: 35vh;
+    }
+    #Homepage-brands .video-content .video-content-inner a .play-button{
+        
+        display: none;
+    }
+    #Homepage-brands{
+        padding-top: 200px;
+    }
+    .Products-main{
+        padding: 0px;
+    }
+    .Products-main .field-1{
+        margin: auto;
+    }
+    .Products-group .field-2{
+        padding-left: 0px;
+    }
+    .Products-group .field-2 .title_group h1{
+        font-size: 30px;
+    }
+    .fleld_productions{
+        margin-top: 50px;
+    }
+    .Products-group .field-1{
+        margin-bottom: 50px;
+    }
+    .Products-group .menu-groups{
+        padding: 20px;
+    }
+    .fleld_productions .card .content .text-field{
+        opacity: 1;
+    }
+    .form-field input{
+        margin:20px 0px !important;
+    }
+    .form-field textarea{
+        margin:20px 0px !important;
+    }
+
+    .breadcrumb-inner{
+        width: 100%;
+        transform: translate(0%,600%);
+    }
+    .breadcrumb-title h1{
+        font-size: 20px;
+    }
+    .breadcrumb-text{
+        display: none;
+    }
+}

@@ -24,9 +24,13 @@ $('.button-box').click(function () {
   var swiper2= new Swiper(".BrandSwiper", {
     spaceBetween: 10,
     slidesPerView: 6,
-    loop: true,
+    loop: 'true',
     thumbs: {
       swiper: swiper,
+    },
+    autoplay: {
+      delay: 3500,
+      disableOnInteraction: false,
     },
     breakpoints: {
       0: {

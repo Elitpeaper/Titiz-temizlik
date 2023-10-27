@@ -197,6 +197,24 @@ header .navigation-menu-button .button-box span:nth-child(2){
    header .navigation-menu-button{
         visibility: visible;
    }
+   header{
+        height: 70px;
+   }
+   header .header-inner .brand img{
+        width: 110px;
+   }
+   header .navigation-menu-button .button-box{
+        width: 50px;
+        height: 60px;
+   }
+   header .navigation-menu-button .button-box span{
+        width: 43px;
+        height: 6px;
+   }
+   header .navigation-menu-button .button-box.active{
+        width: 70px;
+        height: 70px;
+   }
 }
 
 

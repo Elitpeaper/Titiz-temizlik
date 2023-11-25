@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Marker+Hatch&display=swap');
+
 .swiper {
     width: 100%;
     height: 100vh;
@@ -8,6 +9,23 @@
     height: 100%;
     position: relative;
 }
+.swiper-slide .content .text-field{
+    width: 450px;
+    height: 450px;
+    position: absolute;
+    background-color: transparent;
+    transform: translate(50% ,80%);
+    z-index: 100;
+}
+.swiper-slide .content .text-field h1{
+    color: #FFF;
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+.swiper-slide .content .text-field p{
+    color: #FFF;
+    font-size: 17px;
+}
 
 .swiper-slide .content .img-field{
     width: 100%;
@@ -15,8 +33,8 @@
 }
 .swiper-slide .content .img-field::before{
     content: '';
-    background-color: #0A2036;
-    opacity: .3;
+    background-color: #000;
+    opacity: .5;
     width: 100%;
     height: 100%;
     position: absolute;
@@ -222,9 +240,7 @@
     object-fit: cover;
     object-position: center;
 }
-.Products-main .field-1 .product-brand-field .card:hover {
-    
-}
+
 .Products-main .field-1 .product-brand-field .card:hover .content .text-field{
     opacity: 1;
 }
@@ -363,9 +379,7 @@
     opacity: 0;
     transition: .5s all ease;
 }
-.Products-group .menu-groups .main-menu .collapse_menu{
-    
-}
+
 .Products-group .menu-groups .main-menu .collapse_menu li a{
     position: relative;
 }
@@ -736,15 +750,16 @@ td{
     margin-bottom: 10px;
     width: 100%;
     height: 250px;
-    overflow: hidden;
+    position: relative;
 }
+
 #Homepage-about .gallery a img{
     height: auto;
     width: 100%;
     height: auto;
     object-position: center;
     object-fit: cover;
-    transition: all .25s ease;
+    
 }
 
 
@@ -803,4 +818,52 @@ td{
 #Homepage-VideoField a .play-button span:nth-child(3){
     transform:translate(13% ,38px) rotate(90deg);
     width: 50px !important;
+}
+
+.ProductGroup{
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.ProductGroup .GroupCard{
+    position: relative;
+    width: 100%;
+    height: 350px;
+    margin: 10px;
+    display: flex;
+}
+
+
+.ProductGroup .GroupCard a{
+    width: 100%;
+    height: auto;
+    transition: all .25s ease;
+    border: 1px solid #d9e0e6;
+    transition: .25s all ease;
+    box-shadow: none;
+    background-size: 65%;
+    display: flex;
+    flex-direction: column;
+    background-color: #d9e0e6;
+    text-decoration: none;
+}
+.ProductGroup .GroupCard a img{
+    width: auto;
+    margin: auto;
+    position: relative;
+}
+
+.ProductGroup .GroupCard a:hover{
+    transform: translateY(-10px);
+    background-size: 70%;
+}
+.ProductGroup .GroupCard a .content {
+    opacity: 0;
+    transition: all .25s  ease;
+}
+.ProductGroup .GroupCard a .content p{
+    color: #000;
+}
+.ProductGroup .GroupCard a:hover .content {
+    opacity: 1;
 }

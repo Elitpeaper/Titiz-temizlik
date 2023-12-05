@@ -137,9 +137,12 @@
     transform: translate(-950%, 400%);
     border: none;
 }
- body{
+body{
     background-color: #F7F1E5;
- }
+}
+.m-left-20{
+    margin-left: 20px;
+}
 
 .breadcrumb{
     width: 100%;
@@ -165,7 +168,8 @@
 .breadcrumb-inner{
     width: 600px;
     height: auto;
-    transform: translate(50%,125%);
+    bottom: 40px;
+    left: 40px;
     z-index: 2;
     position: absolute;
     align-items: center;
@@ -862,7 +866,8 @@ td{
     transition: all .25s  ease;
 }
 .ProductGroup .GroupCard a .content p{
-    color: #000;
+    color: #161A30;
+    font-weight: 500;
 }
 .ProductGroup .GroupCard a:hover .content {
     opacity: 1;

@@ -841,9 +841,7 @@ td{
 .ProductGroup .GroupCard a{
     width: 100%;
     height: auto;
-    transition: all .25s ease;
     border: 1px solid #d9e0e6;
-    transition: .25s all ease;
     box-shadow: none;
     background-size: 65%;
     display: flex;

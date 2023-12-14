@@ -3,8 +3,15 @@ header{
     height: 100px;
     background-color: #0E2954;
     position: fixed;
-    top: 0;
     z-index: 110;
+    transition: all .40s ease ;
+    top: 0%;
+}
+header.scroll-up{
+    top: 0%;
+}
+header.scroll-down{
+    top: -100%;
 }
 header .container-xl{
     align-items: center;

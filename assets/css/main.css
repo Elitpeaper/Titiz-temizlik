@@ -870,3 +870,12 @@ td{
 .ProductGroup .GroupCard a:hover .content {
     opacity: 1;
 }
+
+#preloader{
+    width: 100%;
+    height: 100vh;
+    z-index: 1000;
+    position: fixed;
+    background:  rgb(14, 17, 31) url(/assets/img/preloader2.gif) no-repeat center center;
+    background-size: 25%;
+}

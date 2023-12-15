@@ -875,7 +875,7 @@ td{
     position: fixed;
     width:100%;
     height:100vh;
-    background:rgb(14, 17, 31) url(/assets/img/preloader.gif) center center no-repeat;
+    background:rgb(14, 17, 31) url(/assets/img/preloader.gif) no-repeat center center;
     background-size:25%;
     z-index:1000;
 }

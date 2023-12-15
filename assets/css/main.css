@@ -878,5 +878,5 @@ td{
     background:rgb(14, 17, 31) url(/assets/img/preloader.gif) no-repeat center center;
     background-size:25%;
     z-index:1000;
-    transition: all .25s ease ;
+    transition: all .25s linear;
 }

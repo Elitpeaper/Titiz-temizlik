@@ -144,7 +144,7 @@ $('.button-box').click(function () {
 let preloader = document.getElementById("preoader");
 
 window.addEventListener("load",function(){
-    loader.style.display="none";
+    preloader.style.display="none";
 })
 
 

@@ -141,5 +141,11 @@ $('.button-box').click(function () {
     accelerationMax: 2,
   });
 
+let preloader = document.getElementById("preoader");
 
-  gsap.registerPlugin(scrollTrigger);
+window.addEventListener("load",function(){
+    loader.style.display="none";
+})
+
+
+  

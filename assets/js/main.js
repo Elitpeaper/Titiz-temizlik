@@ -141,7 +141,7 @@ $('.button-box').click(function () {
     accelerationMax: 2,
   });
 
-let preloader = document.getElementById("preoader");
+let preloader = document.getElementById("preloader");
 
 window.addEventListener("load",function(){
     preloader.style.display="none";

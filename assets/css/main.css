@@ -880,3 +880,109 @@ td{
     background-size: 25%;
 }
    
+
+#Homepage-about2 .field-1 .title-field{
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 4px;
+    color: #7A8289;
+}
+#Homepage-about2 .field-1 .main-title-field{
+    font-size: 65px;
+    color: #0A2036;
+    margin-bottom: 50px 
+}
+#Homepage-about2 .field-1 .button{
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #DEDEDE;
+    position: relative;
+    transition: all .30s linear;
+    width: 123px;
+    height: 123px;
+}
+#Homepage-about2 .field-1 .button:hover {
+    background-color: #004B96;
+    transform: translateX(15px);
+}
+#Homepage-about2 .field-1 .button:hover .arrow {
+    margin-left: 10px;
+    transition: .15s all ease;
+}
+#Homepage-about2 .field-1 .button:hover .arrow span {
+    background-color: #FFF;
+}
+#Homepage-about2 .field-1 .button .arrow{
+    width: 50%;
+    height: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .30s linear;
+}
+#Homepage-about2 .field-1 .button .arrow span{
+    height: 2px;
+    position: absolute;
+    background-color: #004B96
+}
+#Homepage-about2 .field-1 .button .arrow span:nth-child(1){
+    width: 90%;
+    left: 0;
+}
+#Homepage-about2 .field-1 .button .arrow span:nth-child(2){
+    width: 50%;
+    transform: translateY(-500%) rotate(45deg);
+    right: 0;
+}
+#Homepage-about2 .field-1 .button .arrow span:nth-child(3){
+    width: 50%;
+    transform: translateY(500%) rotate(-45deg);
+    right: 0;
+}
+#Homepage-about2 .field-1 .text-field{
+    width: 90%;
+}
+#Homepage-about2 .field-1 .text-field p{
+    font-size: 28px;
+    color: #626A72;
+}
+#Homepage-about2 .field-2 .content:nth-child(1){
+    border-left: 1px solid #E6E6E6;
+    border-bottom: 1px solid #E6E6E6;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 60px;
+}
+#Homepage-about2  .field-2 .content:nth-child(2) {
+    border-right: 1px solid #E6E6E6;
+    border-bottom: 1px solid #E6E6E6;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 60px;
+}
+#Homepage-about2  .field-2 .content:nth-child(3) {
+    border-left: 1px solid #E6E6E6;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 60px;
+}
+
+#Homepage-about2 .field-2 .content .title-field .title {
+    font-size: 57px;
+    color: #004B96;
+    font-weight: 600;
+    margin: unset;
+}
+#Homepage-about2 .field-2 .content .title-field .sub-title {
+    font-size: 26px;
+    color: #A5A7AA;
+}
